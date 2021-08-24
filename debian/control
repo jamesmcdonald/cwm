@@ -9,7 +9,7 @@ Build-Depends: bison,
                libxinerama-dev,
                libxrandr-dev,
                pkg-config
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Vcs-Browser: https://github.com/jamesmcdonald/cwm
 Rules-Requires-Root: no
 Homepage: https://github.com/leahneukirchen/cwm
