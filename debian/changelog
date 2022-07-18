@@ -3,8 +3,12 @@ cwm (7.1-1) unstable; urgency=medium
   * Import upstream 7.1 sources
   * Update packaging for 7.1
   * Update standards version to 4.6.1.0
+  * Undo renaming of cwm to openbsd-cwm - the binary and manual page are now
+    called just 'cwm' (Closes: #803737)
+  * Add compatibility symlinks from openbsd-cwm to cwm to avoid breaking
+    existing installations
 
- -- James McDonald <james@jamesmcdonald.com>  Mon, 18 Jul 2022 13:30:22 +0200
+ -- James McDonald <james@jamesmcdonald.com>  Mon, 18 Jul 2022 17:18:22 +0200
 
 cwm (6.6-2) unstable; urgency=medium
 
