@@ -3,7 +3,7 @@ set -e
 
 case "$1" in
     remove)
-        update-alternatives --remove x-window-manager /usr/bin/openbsd-cwm
+        update-alternatives --remove x-window-manager /usr/bin/cwm
 	;;
     *)
         ;;

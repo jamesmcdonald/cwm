@@ -1,8 +1,8 @@
 cwm for Debian
 --------------
 
-I have renamed the executable from 'cwm' to 'openbsd-cwm' to avoid a conflict.
-The man page is also renamed to openbsd-cwm.1.
+The cwm binary and documentation are now called 'cwm'. There is still a symlink
+'openbsd-cwm' to ease upgrading from previous versions.
 
 The default 'lock' program bound to CM-Delete has been changed from 'xlock'
 to 'xscreensaver-command -lock'. In order for this to work, you will have to
