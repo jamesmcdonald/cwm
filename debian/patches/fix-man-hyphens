@@ -12,7 +12,7 @@ Add backslash-escaping to bare - used as minus in man page.
  The default is 50.
 --- a/cwm.1
 +++ b/cwm.1
-@@ -82,65 +82,65 @@
+@@ -82,69 +82,69 @@
  The default key bindings are:
  .Pp
  .Bl -tag -width "CM-EscapeXXXXX" -offset indent -compact
@@ -46,6 +46,12 @@ Add backslash-escaping to bare - used as minus in man page.
 -.It Ic MS-Tab
 +.It Ic MS\-Tab
  Reverse cycle through currently visible windows.
+-.It Ic M-grave
++.It Ic M\-grave
+ Cycle through currently visible windows of the same window class.
+-.It Ic MS-grave
++.It Ic MS\-grave
+ Reverse cycle through currently visible windows of the same window class.
 -.It Ic CM-x
 +.It Ic CM\-x
  Close current window.
