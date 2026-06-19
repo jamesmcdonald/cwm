@@ -1,3 +1,10 @@
+cwm (7.9-2) unstable; urgency=medium
+
+  * Add xdg-desktop-portal configuration defaulting to gtk (Closes: #1051001)
+  * Update deprecated pkg-config dependency to pkgconf
+
+ -- James McDonald <james@jamesmcdonald.com>  Fri, 19 Jun 2026 10:23:35 +0200
+
 cwm (7.9-1) unstable; urgency=low
 
   * Import upstream 7.9 sources
