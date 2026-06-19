@@ -1,1 +1,2 @@
 debian/cwm.desktop usr/share/xsessions
+debian/cwm-portals.conf usr/share/xdg-desktop-portal

@@ -6,3 +6,4 @@ Terminal=False
 TryExec=cwm
 Type=Application
 Keywords=wm;windowmanager;window;manager;cwm;
+DesktopNames=cwm;
